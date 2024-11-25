@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@react-three/drei": "9.13.2",
+    "@react-three/fiber": "8.2.2",
+    "@types/three": "0.143.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "0.143.0"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387"
+}

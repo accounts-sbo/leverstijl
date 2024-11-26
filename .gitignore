@@ -1,2 +1,4 @@
+personal/
 node_modules/
 .next/
+.DS_Store

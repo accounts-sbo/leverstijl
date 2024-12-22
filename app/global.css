@@ -17,3 +17,11 @@
     overflow: hidden;
   }
 }
+
+.poppins {
+  font-family: var(--font-poppins);
+}
+
+.lato {
+  font-family: var(--font-lato);
+}

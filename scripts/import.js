@@ -10,6 +10,7 @@ const importFileNames = {
   "bioscoop": "Bioscoop.jsx",
   "huis": "Huis.jsx",
   "ziekenhuis": "Ziekenhuis.jsx",
+  "supermarkt": "Supermarkt.jsx"
 }
 
 const onError = (msg) => { console.error(`🚫 ${msg}`); process.exit(); }

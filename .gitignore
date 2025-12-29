@@ -2,3 +2,7 @@ personal/
 node_modules/
 .next/
 .DS_Store
+
+# Development folders - not needed for deployment
+export/
+import/

@@ -56,21 +56,21 @@ export function useEilandLogic({ nodes, materials, groupRef } = {}) {
   // ------------------------------------------------------------------------------------------------------ //
   // Camera circular motion
   useEffect(() => {
-    camera.position.set(-radius, 50, 0)
-    camera.lookAt(10, 10, 50)
+    // Set initial camera position to view the island from above and at an angle
+    camera.position.set(30, 25, 50)
+    camera.lookAt(0, 0, 0)
   }, [camera])
 
   useFrame(({ clock }) => {
     const t = clock.getElapsedTime() * speed
 
-    // if (turbine) {
-    //   turbine.rotation.y += 0.01
-    // }
-    // Circular motion
-    // camera.position.x = Math.cos(t) * radius
-    // camera.position.z = Math.sin(t) * radius
+    // Slow circular motion around the island
+    const circleRadius = 50
+    camera.position.x = Math.cos(t) * circleRadius
+    camera.position.z = Math.sin(t) * circleRadius
+    camera.position.y = 25 + Math.sin(t * 0.5) * 5 // Gentle up/down motion
 
-    // Always look at center
+    // Always look at center of the island
     camera.lookAt(0, 0, 0)
   })
 

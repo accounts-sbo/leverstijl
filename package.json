@@ -17,11 +17,11 @@
     "analyze": "ANALYZE=true next build",
     "start": "next start",
     "import:eiland": "node scripts/import.js eiland",
-	"export:eiland": "npx gltfjsx D:\\Werkbestanden\\Leverstijl\\20241101_Leverstijl\\exports\\ThreeIslands.gltf --transform",
+    "export:eiland": "npx gltfjsx D:\\Werkbestanden\\Leverstijl\\20241101_Leverstijl\\exports\\ThreeIslands.gltf --transform",
     "import:bioscoop": "node scripts/import.js bioscoop",
     "import:huis": "node scripts/import.js huis",
     "import:ziekenhuis": "node scripts/import.js ziekenhuis",
-	"import:supermarkt": "node scripts/import.js supermarkt"
+    "import:supermarkt": "node scripts/import.js supermarkt"
   },
   "dependencies": {
     "@ducanh2912/next-pwa": "^10.0.0",
@@ -29,7 +29,7 @@
     "@react-three/fiber": "^8.15.12",
     "chalk": "^5.4.1",
     "glsl-random": "^0.0.5",
-    "next": "^14.0.4",
+    "next": "^14.2.35",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "three": "^0.160.0",
